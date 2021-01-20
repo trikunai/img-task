@@ -13,11 +13,9 @@ install npm packages
 ## Usage
 
 run on dev
-```npm run dev
-```
+```npm run dev```
 run on production
-```npm run start
-```
+```npm run start```
 
 ## Dependecies
 It uses sharp for image conversion
