@@ -1,0 +1,37 @@
+{
+  "name": "img-task",
+  "version": "1.0.0",
+  "description": "img task rest api",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha --timeout 121000 --exit",
+    "dev": "nodemon --max-old-space-size=4096 --inspect=0.0.0.0 index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trikunai/img-task.git"
+  },
+  "keywords": [
+    "API",
+    "Express",
+    "NodeJS"
+  ],
+  "author": "trikunai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trikunai/img-task/issues"
+  },
+  "homepage": "https://github.com/trikunai/img-task#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "lowdb": "^1.0.0",
+    "md5-file": "^5.0.0",
+    "mocha": "^8.2.1",
+    "nanoid": "^3.1.20",
+    "nodemon": "^2.0.7",
+    "sharp": "^0.27.0",
+    "winston": "^3.3.3"
+  }
+}
