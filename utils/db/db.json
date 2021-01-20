@@ -1,13 +1,4 @@
 {
-    "tasks": [
-        {
-            "taskId": 1,
-            "sourcePath": "",
-            "outputPath": "",
-            "start_ts": 11,
-            "end_ts": 11,
-            "width":11,
-            "md5": 11
-        }
-    ]
+  "tasks": [
+  ]
 }

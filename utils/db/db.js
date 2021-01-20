@@ -1,10 +1,9 @@
 const low = require('lowdb')
 const FileSync = require('lowdb/adapters/FileSync')
-
-const adapter = new FileSync('db.json')
+const path = require("path");
+const adapter = new FileSync(path.resolve(__dirname,'db.json'))
 const db = low(adapter)
-const { nanoid } = require("nanoid")
-const idlength = 6
+
 
 // db.defaults({ tasks: [] }).write()
 module.exports.getByTaskId = async (taskId) =>{
@@ -24,7 +23,7 @@ module.exports.saveTask = async (task) =>{
     try {
         const savedTask = db.get('tasks')
             .push({
-                taskId: nanoid(idlength),
+                taskId: task.taskId,
                 sourcePath: task.sourcePath,
                 outputPath: task.outputPath,
                 start_ts: task.start_ts,
