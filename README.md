@@ -1,6 +1,6 @@
 # img-task
 
-Img-task is a simple rest api project (build on node and express) where it does convert source images to new output images with 800 and 1024 wudth.
+Img-task is a simple rest api project (build on node and express) where it does convert source images to new output images with 800 and 1024 width.
 
 ## Installation
 
