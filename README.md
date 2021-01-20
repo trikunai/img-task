@@ -20,7 +20,8 @@ run on production
 ```npm run start```
 
 ## Dependecies
-It uses sharp for image conversion
+It uses sharp for image conversion.
+
 It uses flow-db for json db storage.
 
 ## Testing 
