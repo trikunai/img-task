@@ -1,0 +1,8 @@
+curl --request GET \
+  --url http://localhost:3000/api/task/Cs5uMZ1 \
+  --header 'Content-Type: application/json' \
+  --cookie connect.sid=s%253AdX9vnbReS3N2kx9YjQGQxWbvPOhixQDq.xlV19sRVSw1HhaTrwROEjBvb9OSRibr5TRbG2Es5bbE \
+  --data '{
+	"file": "1067455811_1_1_1.jpg"
+}'
+
